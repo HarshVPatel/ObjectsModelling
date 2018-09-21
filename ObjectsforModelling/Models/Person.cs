@@ -14,6 +14,16 @@ namespace ObjectsforModelling.Models
         public int DOB;
         public string Email;
 
+        public Person(string FirstName, string LastName, string NickName, string Gender, int DOB, string Email)
+        {
+            this.FirstName = "Harsh";
+            this.LastName = "Patel";
+            this.NickName = "Harshi";
+
+            this.Gender = "male";
+            this.DOB = 16;
+            this.Email = "h.patel405.hp@gmail.com";
+        }
   
     }
 }
