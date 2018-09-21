@@ -7,10 +7,10 @@ namespace ObjectsforModelling.Models
 {
     public class Car
     {
-        public int Cost;
-        public int Year;
-        public string Make;
-        public string Model;
-        public string Color;
+        public int Cost { get; set; }
+        public int Year { get; set; }
+        public string Make { get; set; }
+        public string Model { get; set; }
+        public string Color { get; set; }
     }
 }

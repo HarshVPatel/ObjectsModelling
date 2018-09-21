@@ -7,23 +7,17 @@ namespace ObjectsforModelling.Models
 {
     public class Person
     {
-        public string FirstName;
-        public string LastName;
-        public string NickName;
-        public string Gender;
-        public int DOB;
-        public string Email;
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string NickName { get; set; }
+        public string Gender { get; set; }
+        public int DOB { get; set; }
+        public string Email { get; set; }
 
-        public Person(string FirstName, string LastName, string NickName, string Gender, int DOB, string Email)
-        {
-            this.FirstName = "Harsh";
-            this.LastName = "Patel";
-            this.NickName = "Harshi";
 
-            this.Gender = "male";
-            this.DOB = 16;
-            this.Email = "h.patel405.hp@gmail.com";
-        }
+
+
+    }
   
     }
 }
