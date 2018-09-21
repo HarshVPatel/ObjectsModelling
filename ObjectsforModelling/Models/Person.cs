@@ -13,5 +13,7 @@ namespace ObjectsforModelling.Models
         public string Gender;
         public int DOB;
         public string Email;
+
+  
     }
 }
